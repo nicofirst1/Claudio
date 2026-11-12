@@ -1,10 +1,10 @@
-<p align="center"><img src="assets/logo.png" alt="Claudio logo" width="160"></p>
+<p align="center"><img src="assets/logo-icon.png" alt="Claudio logo" width="160"></p>
 
 # Claudio
 
 [![CI](https://github.com/nicofirst1/Claudio/actions/workflows/ci.yml/badge.svg)](https://github.com/nicofirst1/Claudio/actions/workflows/ci.yml)
 
-_Hear what a Claude Code session is doing without watching the terminal._
+_A Geiger counter for your agents._
 
 ---
 
