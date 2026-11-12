@@ -6,14 +6,9 @@
 
 ---
 
-[![CI](https://github.com/nicofirst1/Claudio/actions/workflows/ci.yml/badge.svg)](https://github.com/nicofirst1/Claudio/actions/workflows/ci.yml)
-
-Claudio is a local audio daemon. Claude Code hook events (tool calls, subagents, failures, compaction, context pressure) arrive over UDP or HTTP on port 9753 and become a generative ambient soundscape: a pad that breathes, rain that thickens when busy, a wooden knock on failure, a descending chime on stop. Research prototype, formerly claude-geiger. Needs python3 + numpy + scipy; `sounddevice` only for live playback.
+Claudio is a local audio daemon. Claude Code hook events (tool calls, subagents, failures, compaction, context pressure) arrive over UDP or HTTP on port 9753 and become a generative ambient soundscape: a pad that breathes, rain that thickens when busy, a wooden knock on failure, a descending chime on stop. Research prototype, formerly claude-geiger. Needs python3 + numpy + scipy; `sounddevice` only for live playback. Multiple Claude Code sessions can share one daemon: events blend into the same room, which only fades to silence once the last session ends, and each session's gestures get their own pan/pitch.
 
 The sound layer is a swappable **theme** (`CLAUDIO_THEME`; see [Themes](#themes)).
-
-Multiple Claude Code sessions can share one daemon: events blend into the same room, which only fades to silence once the last session ends, and each session's gestures get their own pan/pitch (`docs/research/BRIEF-v2.5.md`).
-
 
 
 https://github.com/user-attachments/assets/31f796b3-6658-4095-b280-e2f900cb12fd
