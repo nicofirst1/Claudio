@@ -1,12 +1,12 @@
 <p align="center"><img src="assets/logo-icon.png" alt="Claudio logo" width="160"></p>
 
-# Claudio
+<h1 align="center">Claudio</h1>
 
-[![CI](https://github.com/nicofirst1/Claudio/actions/workflows/ci.yml/badge.svg)](https://github.com/nicofirst1/Claudio/actions/workflows/ci.yml)
-
-_A Geiger counter for your agents._
+<p align="center"><em>A Geiger counter for your agents.</em></p>
 
 ---
+
+[![CI](https://github.com/nicofirst1/Claudio/actions/workflows/ci.yml/badge.svg)](https://github.com/nicofirst1/Claudio/actions/workflows/ci.yml)
 
 Claudio is a local audio daemon. Claude Code hook events (tool calls, subagents, failures, compaction, context pressure) arrive over UDP or HTTP on port 9753 and become a generative ambient soundscape: a pad that breathes, rain that thickens when busy, a wooden knock on failure, a descending chime on stop. Research prototype, formerly claude-geiger. Needs python3 + numpy + scipy; `sounddevice` only for live playback.
 
